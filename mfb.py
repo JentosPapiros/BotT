@@ -8,7 +8,7 @@ bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(content_types=['text'])
 def handle_text_messages(message):
 
-    if message.text == "Привет":
+    if message.text == "Прривет":
         bot.send_message(message.from_user.id, "Пуривет")
     elif message.text == "Кто ты?":
         bot.send_message(message.from_user.id, "Я тестовый чатбот для учебного примера.")
