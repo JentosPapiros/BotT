@@ -19,4 +19,4 @@ def handle_text_messages(message):
     else:
         bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши что-то другое.")
         
- bot.polling(none_stop=True, interval=0)
+# bot.polling(none_stop=True, interval=0)
