@@ -1,1 +1,1 @@
-web: python mfb.py
+web: python fb.py
